@@ -1,5 +1,5 @@
 -- 1)
-SELECT´p.nome, p.data_nasc
+SELECT p.nome, p.data_nasc
 FROM paciente p
 WHERE p.id IN (SELECT c.id_paciente
 				FROM consulta c
